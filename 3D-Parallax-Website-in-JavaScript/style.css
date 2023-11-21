@@ -12,6 +12,10 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+::selection {
+    background-color: #0b372dbb;
+}
+
 .logo {
     width: 100px;
 }
@@ -108,7 +112,7 @@ main {
 
 .parallax {
     pointer-events: none;
-    transform: translate(-50%, -50%);
+    transition: 0.45s cubic-bezier(0.2, 0.49, 0.32, 0.99);
 }
 
 .bg-img {
@@ -138,17 +142,17 @@ main {
 .fog-6 {
     position: absolute;
     z-index: 4;
-    width: 2000px;
+    width: 3000px;
     top: calc(50% + 85px);
-    left: calc(50% + 10px);
+    left: calc(50% + 200px);
 }
 
 .mountain-9 {
     position: absolute;
     z-index: 5;
     top: calc(50% + 113px);
-    width: 470px;
-    left: calc(50% - 457px);
+    width: 570px;
+    left: calc(50% - 487px);
 }
 
 .mountain-8 {
@@ -267,8 +271,8 @@ main {
     position: absolute;
     z-index: 18;
     top: calc(50% + 60px);
-    left: calc(50% - 790px);
-    width: 530px;
+    left: calc(50% - 800px);
+    width: 700px;
 }
 
 .sun-rays {
@@ -294,7 +298,7 @@ main {
     z-index: 21;
     width: 100%;
     top: calc(100% - 355px);
-    left: 50%;
+    left: 100%;
     transform: translate(-50%, -50%);
 }
 
