@@ -207,8 +207,8 @@ main {
     position: absolute;
     z-index: 10;
     top: calc(50% + 50px);
-    width: 408px;
-    left: calc(50% + 620px);
+    width: 458px;
+    left: calc(50% + 600px);
 }
 
 .fog-4 {
@@ -271,7 +271,7 @@ main {
     position: absolute;
     z-index: 18;
     top: calc(50% + 60px);
-    left: calc(50% - 800px);
+    left: calc(50% - 775px);
     width: 700px;
 }
 
