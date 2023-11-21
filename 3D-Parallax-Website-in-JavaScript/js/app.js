@@ -51,7 +51,7 @@ Array.from(parallax_el)
         el,
         {
             top: `${el.offsetHeight /2 + +el.dataset.distance}px`,
-            duration: 2.5,
+            duration: 2,
             ease: "power3.out",
         },
         "1"
@@ -61,7 +61,7 @@ Array.from(parallax_el)
 timeline.from(".text h1", {
     y: window.innerHeight -
         document.querySelector(".text h1").getBoundingClientRect().top + 200,
-    duration: 2,
+    duration: 1.5,
         },
     "2.5"
 ).from(
@@ -69,12 +69,12 @@ timeline.from(".text h1", {
     {
     y: -150,
     opacity: 0,
-    duration: 1.5,
+    duration: 1,
     },
     "3"
 )
     .from(".hide", {
         opacity: 0,
-        duration: 1.5,
+        duration: 1,
         }, "3"
     );

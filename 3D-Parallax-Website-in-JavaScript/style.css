@@ -297,9 +297,8 @@ main {
     position: absolute;
     z-index: 21;
     width: 100%;
-    top: calc(100% - 355px);
-    left: 100%;
-    transform: translate(-50%, -50%);
+    top: 59.26%;
+    left: 50.69%;
 }
 
 .vignette {
